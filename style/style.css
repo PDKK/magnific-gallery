@@ -1,0 +1,22 @@
+ul.mgop-elements,
+ol.mgop-elements,
+div.mgop-elements {
+	display: table;
+	margin: 0;
+}
+
+.mgop-elements-item {
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+.mgop-elements-item-link {
+	display: block;
+}
+
+.mgop-elements-item-description {
+	display: block;
+	text-align: center;
+}
+

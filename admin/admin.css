@@ -1,0 +1,159 @@
+.mgop-filed-content.inactive {
+	display: none;
+}
+
+.mgop-filed {
+	border: 1px solid #ddd;
+	padding: 20px;
+	font-size: 14px;
+	width: 800px;
+	position: relative;
+	top: -1px;
+	background: rgba(245,245,245, 0.5);
+}
+
+input.mgop-post-type[type="checkbox"]{
+	margin-right: 5px;
+}
+
+.mgop-filed:first-child {
+	top: 0;
+}
+
+.mgop-filed label {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+}
+
+.mgop-form{
+	float: left;
+}
+
+.mgop-filed .sortable-list li{
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	position: relative;
+	margin-bottom: 12px;
+	
+	/* background: none #f4f4f4; */
+	background: rgba(230,230,230, 0.5);
+}
+
+.drag-icon {
+	background: url(images/draggable.png) no-repeat 6px center transparent;
+	position: absolute;
+	width: 25px;
+	height: 100%;
+	top: 0;
+	margin-top: 0;
+	left: 0;
+	cursor: move;
+}
+
+.drag-icon:hover{
+	background: url(images/draggable.png) no-repeat -14px center transparent;
+}
+
+.mgop_logo{
+	background: url(images/mgop-logo.png) no-repeat transparent;
+	width: 300px;
+	height: 200px;
+}
+
+.mgop-description {
+	color: #0a0;
+	font-size: 0.8em;
+	margin-left: 28%;
+	margin-top: -4px;
+	margin-bottom: 5px;
+}
+
+.mgop-filed .mgop-selectfield{
+	width: 79%;
+	padding: 2px;
+}
+.mgop-filed .mgop-contentfield{
+	width: 78%;
+	padding: 2px;
+	display: inline-block;
+}
+.mgop-filed .mgop-textfield {
+	width: 79%;
+	padding: 6px;
+}
+
+.sortable-list-item-wrapper {
+	margin: 10px 10px 10px 25px;
+	border-left: 1px solid #ddd;
+	padding-left: 10px;
+}
+
+.mgop-add-new,
+.mgop_add {
+	display: inline-block;
+	padding: 8px 20px 8px 38px;
+	border: 1px solid #bbb;
+	background: url(images/welcome-icons.png) no-repeat 12px 7px #fff;
+	text-decoration: none;
+	color: #333;
+	text-shadow: 1px 1px 1px #fff;
+	border-radius: 3px;
+}
+
+.mgop_add:hover {	
+	border: 1px solid #aaa;
+}
+
+.mgop-wrapper-sortable {
+	display: table;
+}
+
+.mgop_thumnails {
+	display: block;
+	float: left;
+	padding: 0;
+	border: 1px solid #bbb;
+	margin-right: 13px;
+	border-radius: 3px;
+	position: relative;
+	cursor: move;
+	margin-bottom: 11px;
+	background: #dfdfdf;
+}
+
+.mgop_thumnails:hover {
+	background: #efefef;
+}
+
+.mgop_thumnails  > div{
+	margin: 12px;
+	width: 150px;
+	height: 123px;
+	overflow: hidden;
+}
+
+.delete-this,
+.mgop_remove_item {
+	display: block;
+	position: absolute;
+	background: url(images/uploader-icons.png) no-repeat -96px 3px #fff;
+	width: 21px;
+	height: 21px;
+	top: -9px;
+	right: -11px;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+}
+
+.delete-this:hover,
+.mgop_remove_item:hover{
+	/* border-color: #f77; */
+	background-color: #f44;
+}
+
+.delete-this > span,
+.mgop_remove_item > span{
+	display: none;
+}
