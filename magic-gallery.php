@@ -1,15 +1,16 @@
 <?php
 /**
- * Plugin Name: Multiple Gallery on Post
- * Plugin URI: http://iwayanwirka.duststone.com/multiple-gallery-on-post/
- * Description: Very simple gallery plugin embeded on post as metabox, be able to add multiple metaboxes in one post with ability to insert multiple images for each.
- * Version: 0.4
- * Author: I Wayan Wirka
- * Author URI: http://iwayanwirka.duststone.com/
+ * Plugin Name: Magic Gallery
+ * Plugin URI: github.com/PDKK
+ * Description: A mofiied verion of the multiple galleries on page plugin
+ * Version: 0.1
+ * Author: Paul Knox-Kennedy
+ * Author URI: www.knox-kennedy.me.uk
  * License: GPL2
  */
 
-/*  Copyright 2013  I Wayan Wirka  (email : wirka.wayan@gmail.com)
+/*  Modifications Copyright 2015  Paul Knox-Kennedy
+    Original Copyright 2013  I Wayan Wirka  (email : wirka.wayan@gmail.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
