@@ -1,4 +1,6 @@
-=== Multiple Gallery on Post ===
+# Magnific Gallery
+
+A wordpress plugin, created by adapting the "Multiple Gallery On Post" plugin.
 Contributors: wirka
 Tags: gallery, multiple images, multiple metaboxes, multiple galeries
 Requires at least: 3.4.0
@@ -29,24 +31,3 @@ Features:
 1. Settings page
 2. Add images to gallery through edit post page
 3. The galleries preview on post
-
-== Changelog ==
-= 0.4 =
-* Fix shortable trigger on setting page.
-* Fix for multiple shortcode in one post
-
-= 0.3 =
-* Fix registering style plugin to wp_head() instead of wp_footer().
-
-= 0.2 =
-* Add options to display by shortcode.
-
-= 0.1 =
-* Initial release.
-
-== Upgrade Notice ==
-= 0.3 =
-* Fix registering style plugin to wp_head() instead of wp_footer().
-
-= 0.1 =
-* Initial release.
