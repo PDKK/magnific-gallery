@@ -5,7 +5,7 @@
  */
 function mgop_admin_add_page() {
 	
-	add_options_page('Magnific Gallery on Post Settings', 'Magnific Gallery on Post', 'administrator', 'mgop_setting_menu_id', 'mgop_options_page');
+	add_options_page('Multiple Gallery on Post Settings', 'Multiple Gallery on Post', 'administrator', 'mgop_setting_menu_id', 'mgop_options_page');
 }
 add_action('admin_menu', 'mgop_admin_add_page');
 
@@ -40,8 +40,8 @@ function mgop_admin_init(){
 	
 	wp_enqueue_script('jquery-ui-sortable');
 	
-	wp_enqueue_style( 'mgop-admin-style', plugins_url() . '/multiple-gallery-on-post/admin/admin.css' );
-	wp_enqueue_script( 'mgop-admin-script', plugins_url() . '/multiple-gallery-on-post/admin/admin.js' );
+	wp_enqueue_style( 'mgop-admin-style', plugins_url() . '/magnific-gallery/admin/admin.css' );
+	wp_enqueue_script( 'mgop-admin-script', plugins_url() . '/magnific-gallery/admin/admin.js' );
 
 	register_setting( 'mgop_options', 'mgop_options', 'mgop_options_validate' );
 	add_settings_section('mgop_setting_main', 'Main Settings', 'mgop_section_text', 'mgop_setting_menu');

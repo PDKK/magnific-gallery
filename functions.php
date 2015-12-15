@@ -126,7 +126,6 @@ function mgop_gallery_theme( $mgop_slug, $mgop_title, $post_id = '', $metavalue 
 			$template_wrap = '
 				<div class="mgop-element mgop_@mgop_slug">
 					<div class="mgop-element-content">
-						<h3>@mgop_title</h3>
 						<div class="gallery">
 							@mgop_list
 						</div>
