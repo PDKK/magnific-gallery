@@ -5,7 +5,7 @@
  */
 function mgop_admin_add_page() {
 	
-	add_options_page('Multiple Gallery on Post Settings', 'Multiple Gallery on Post', 'administrator', 'mgop_setting_menu_id', 'mgop_options_page');
+	add_options_page('Magnific Gallery on Post Settings', 'Magnific Gallery on Post', 'administrator', 'mgop_setting_menu_id', 'mgop_options_page');
 }
 add_action('admin_menu', 'mgop_admin_add_page');
 
